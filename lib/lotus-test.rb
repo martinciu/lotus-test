@@ -15,7 +15,7 @@ Lotus::Model.configure do
   #    adapter type: :sql, uri: 'postgres://localhost/lotus-test_development'
   #    adapter type: :sql, uri: 'mysql://localhost/lotus-test_development'
   #
-  adapter type: :sql, uri: ENV['LOTUS_TEST_DATABASE_URL']
+  adapter type: :sql, uri: 'sqlite://db/lotus-test_development.sqlite3'
 
   ##
   # Migrations

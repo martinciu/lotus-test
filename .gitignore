@@ -1,2 +1,2 @@
-/db/lotus-test_development
-/db/lotus-test_test
+db/lotus-test_development.sqlite3
+db/lotus-test_test.sqlite3
